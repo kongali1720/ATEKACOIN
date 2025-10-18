@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -138,7 +139,10 @@
       <div class="card rounded-3xl p-8 mb-6">
         <div class="flex items-center justify-between mb-4">
           <span class="stat-label">Wallet Address</span>
-          <div id="status-indicator" class="w-3 h-3 rounded-full bg-green-400 animate-pulse"></div>
+          <div class="flex items-center gap-3">
+            <span id="wallet-mode" class="text-xs text-slate-400">Default Wallet</span>
+            <div id="status-indicator" class="w-3 h-3 rounded-full bg-blue-400 animate-pulse"></div>
+          </div>
         </div>
         <p id="wallet" class="wallet-address">0xe6a35D41C9D28b1d68529371667Cb0CD956dbD99</p>
       </div>
@@ -172,13 +176,16 @@
         <div class="text-2xl font-bold text-white">Rp 4.500.000</div>
       </div>
 
-      <!-- Connect Button (hidden after connection) -->
-      <div id="connect-section" class="text-center mt-8">
-        <button onclick="loadBalance()" class="connect-btn">
-          Connect Wallet
+      <!-- Action Buttons -->
+      <div class="text-center mt-8 flex gap-4 justify-center">
+        <button onclick="connectMetaMask()" class="connect-btn">
+          🦊 Connect MetaMask
         </button>
-        <p class="text-slate-500 text-sm mt-4">Gunakan MetaMask untuk terhubung</p>
+        <button onclick="loadDefaultWallet()" class="connect-btn" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+          🔄 Default Wallet
+        </button>
       </div>
+      <p class="text-slate-400 text-sm mt-4 text-center">Pilih MetaMask untuk wallet Anda atau lihat default wallet</p>
 
     </div>
   </div>
@@ -196,16 +203,65 @@ const abi = [
 // Harga 1 ATEKA
 const pricePerToken = 4500000; // IDR
 
-async function loadBalance() {
-  // Gunakan wallet address yang sudah ditentukan
-  const wallet = "0xe6a35D41C9D28b1d68529371667Cb0CD956dbD99";
+// Default wallet address
+const defaultWallet = "0xe6a35D41C9D28b1d68529371667Cb0CD956dbD99";
+
+async function connectMetaMask() {
+  if (window.ethereum) {
+    try {
+      // Request MetaMask connection
+      await window.ethereum.request({ method: 'eth_requestAccounts' });
+      const web3 = new Web3(window.ethereum);
+      const accounts = await web3.eth.getAccounts();
+      const wallet = accounts[0];
+      
+      // Update UI
+      document.getElementById("wallet").innerText = wallet;
+      document.getElementById("wallet-mode").innerText = "MetaMask Connected";
+      document.getElementById("status-indicator").className = "w-3 h-3 rounded-full bg-green-400 animate-pulse";
+      
+      // Load balance
+      await loadBalanceForWallet(wallet, web3);
+      
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Gagal connect ke MetaMask. Pastikan MetaMask terinstall dan aktif.");
+    }
+  } else {
+    alert("Install MetaMask dulu Boss! 🦊\n\nDownload di: https://metamask.io");
+  }
+}
+
+async function loadDefaultWallet() {
+  const wallet = defaultWallet;
   
   // Update UI
-  document.getElementById("connect-section").style.display = "none";
+  document.getElementById("wallet").innerText = wallet;
+  document.getElementById("wallet-mode").innerText = "Default Wallet";
+  document.getElementById("status-indicator").className = "w-3 h-3 rounded-full bg-blue-400 animate-pulse";
+  
+  // Show loading
+  document.getElementById("balance").innerHTML = '<span class="loading"></span>';
+  document.getElementById("value").innerHTML = '<span class="loading"></span>';
   
   try {
     // Gunakan RPC public Ethereum untuk membaca data tanpa MetaMask
     const web3 = new Web3('https://eth.llamarpc.com');
+    await loadBalanceForWallet(wallet, web3);
+    
+  } catch (error) {
+    console.error("Error:", error);
+    document.getElementById("balance").innerHTML = "Error";
+    document.getElementById("value").innerHTML = "Error";
+    document.getElementById("status-indicator").className = "w-3 h-3 rounded-full bg-red-400";
+  }
+}
+
+async function loadBalanceForWallet(wallet, web3) {
+  try {
+    // Show loading
+    document.getElementById("balance").innerHTML = '<span class="loading"></span>';
+    document.getElementById("value").innerHTML = '<span class="loading"></span>';
     
     const contract = new web3.eth.Contract(abi, contractAddress);
     const decimals = await contract.methods.decimals().call();
@@ -221,13 +277,13 @@ async function loadBalance() {
     console.error("Error:", error);
     document.getElementById("balance").innerHTML = "Error";
     document.getElementById("value").innerHTML = "Error";
-    document.getElementById("status-indicator").className = "w-3 h-3 rounded-full bg-red-400";
+    throw error;
   }
 }
 
-// Auto-load balance on page load
+// Auto-load default wallet on page load
 window.addEventListener('load', () => {
-  loadBalance();
+  loadDefaultWallet();
 });
 </script>
 </body>
