@@ -49,7 +49,7 @@ Proyek ini bertujuan menghadirkan solusi pembayaran digital yang **cepat ⚡, am
 ---
 
 ## 🧩 Integrasi Wallet
-ATEKACOIN dapat ditambahkan secara manual di **MetaMask**, **Trust Wallet**, dan **MyEtherWallet** menggunakan alamat kontrak resmi setelah peluncuran mainnet.
+ATEKACOIN dapat ditambahkan secara manual di **MetaMask**, **Binance**, **Trust Wallet**, dan **MyEtherWallet** menggunakan alamat kontrak resmi setelah peluncuran mainnet.
 
 ---
 
