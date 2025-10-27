@@ -2,14 +2,14 @@
 
 # 🪙 ATEKACOIN  
 
-![Banner](https://img.shields.io/badge/ATEKACOIN-Solana_Token-00ff99?style=for-the-badge&logo=solana&logoColor=white)  
+![Banner](https://img.shields.io/badge/ATEKACOIN-ERC20_Token-627eea?style=for-the-badge&logo=ethereum&logoColor=white)  
 
 <p>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" alt="License">
   </a>
-  <a href="https://solana.com/">
-    <img src="https://img.shields.io/badge/Blockchain-Solana-29a9e1?style=for-the-badge&logo=solana&logoColor=white" alt="Solana">
+  <a href="https://ethereum.org/">
+    <img src="https://img.shields.io/badge/Blockchain-Ethereum-3c3c3d?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum">
   </a>
   <a href="https://github.com/kongali1720/ATEKACOIN/stargazers">
     <img src="https://img.shields.io/github/stars/kongali1720/ATEKACOIN?style=for-the-badge" alt="GitHub Stars">
@@ -23,24 +23,56 @@
 ---
 
 ## 📖 Deskripsi
-**ATEKACOIN** adalah token berbasis **Solana Network** yang dibangun untuk **kecepatan, efisiensi, dan biaya transaksi rendah**.  
-Proyek ini bertujuan menyediakan solusi pembayaran digital yang **cepat ⚡, aman 🔐, dan transparan 🌍**.  
+**ATEKACOIN** adalah token berbasis **Ethereum Network (ERC-20 Standard)** yang dirancang untuk **keamanan tinggi, transparansi, dan interoperabilitas lintas ekosistem DeFi**.  
+Proyek ini bertujuan menghadirkan solusi pembayaran digital yang **cepat ⚡, aman 🔐, dan berorientasi pada masa depan 🌍**.  
 
 ---
 
 ## 🚀 Fitur Utama
-✅ Transaksi ultra cepat dengan biaya rendah  
-✅ Keamanan tinggi berkat blockchain Solana  
-✅ Desain untuk adopsi global  
-✅ Dukungan smart contract  
+✅ Standar **ERC-20** — kompatibel dengan seluruh ekosistem Ethereum  
+✅ **Keamanan tinggi** berkat jaringan Ethereum yang telah teruji  
+✅ **Transparansi penuh** dengan kontrak pintar yang dapat diaudit publik  
+✅ **Integrasi mudah** ke wallet populer seperti MetaMask & Trust Wallet  
 
 ---
 
-## 🌐 Website Resmi
-👉 [ATEKACOIN Official Page](https://kongali1720.github.io/ATEKACOIN)  
+## 🔗 Informasi Teknis
+| Atribut | Detail |
+|----------|---------|
+| **Standar Token** | ERC-20 |
+| **Blockchain** | Ethereum |
+| **Kontrak Pintar (Smart Contract)** | *(Akan diumumkan setelah audit selesai)* |
+| **Total Suplai** | 100,000,000 ATEKA |
+| **Simbol Token** | `ATEKA` |
+| **Desimal** | 18 |
 
+---
+
+## 🧩 Integrasi Wallet
+ATEKACOIN dapat ditambahkan secara manual di **MetaMask**, **Trust Wallet**, dan **MyEtherWallet** menggunakan alamat kontrak resmi setelah peluncuran mainnet.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- Solidity (Smart Contract)  
+- OpenZeppelin Library  
+- Hardhat / Remix IDE  
+- Ethereum Mainnet / Sepolia Testnet  
+
+---
+
+## 🌐 Tautan Resmi
+🔹 **Website:** [https://atekacoin.io](https://atekacoin.io)  
+🔹 **Sticker ATEKA:** [https://kongali1720.com/ateka-sticker/index.html](https://kongali1720.com/ateka-sticker/index.html)  
+🔹 **Whitepaper:** [Coming Soon](#)  
+🔹 **Etherscan:** [Pending Deployment](#)  
+🔹 **Twitter:** [@AtekaCoin](https://twitter.com/AtekaCoin)  
+🔹 **Telegram:** [t.me/AtekaCommunity](https://t.me/AtekaCommunity)  
+
+---
+
+💡 *“ATEKACOIN — Membuka Gerbang Ekonomi Digital yang Aman, Terdesentralisasi, dan Transparan.”*
 </div>
-
 
 ## 📦 Instalasi & Setup
 ```bash
