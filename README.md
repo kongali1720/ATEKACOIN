@@ -32,7 +32,7 @@ Proyek ini bertujuan menghadirkan solusi pembayaran digital yang **cepat ⚡, am
 ✅ Standar **ERC-20** — kompatibel dengan seluruh ekosistem Ethereum  
 ✅ **Keamanan tinggi** berkat jaringan Ethereum yang telah teruji  
 ✅ **Transparansi penuh** dengan kontrak pintar yang dapat diaudit publik  
-✅ **Integrasi mudah** ke wallet populer seperti MetaMask & Trust Wallet  
+✅ **Integrasi mudah** ke wallet populer seperti MetaMask, Binance & Trust Wallet  
 
 ---
 
