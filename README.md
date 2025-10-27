@@ -54,10 +54,14 @@ ATEKACOIN dapat ditambahkan secara manual di **MetaMask**, **Trust Wallet**, dan
 ---
 
 ## 🛠️ Teknologi yang Digunakan
-- Solidity (Smart Contract)  
-- OpenZeppelin Library  
-- Hardhat
-- Ethereum Mainnet  
+
+| Komponen              | Deskripsi Singkat                                                                 |
+|-----------------------|----------------------------------------------------------------------------------|
+| **Solidity**          | Bahasa pemrograman utama untuk menulis smart contract di jaringan Ethereum.      |
+| **OpenZeppelin**      | Library standar untuk keamanan dan pengelolaan token ERC20 yang telah diaudit.   |
+| **Hardhat**           | Framework pengembangan Ethereum untuk pengujian, debugging, dan deployment.      |
+| **Ethereum Mainnet**  | Jaringan utama tempat token **ATEKACOIN** akan diterbitkan secara publik.        |
+
 
 ---
 
@@ -207,43 +211,52 @@ Proyek ini menggunakan lisensi MIT.
 
 ---
 
+<div align="center">
 
-## ✅ Gaspol coding squad Indonesia! 🚀💻
+## ✅ Gaspol Coding Squad Indonesia! 🚀💻
+> Belajar sambil praktek langsung.<br>
+> Run it, understand it.<br>
+> Mini project Python yang gak bikin ngantuk!  
+</div>
 
-> Belajar sambil praktek langsung. Run it, understand it.  
-> Mini project Python yang gak bikin ngantuk!
+---
+
+<div align="center">
+
+## ☕ Traktir Kopi & Nasi Padang  
+
+<strong>Dukung terus biar semangat bikin karya edukatif lainnya...</strong><br>
+💡 ☕ <a href="https://www.paypal.com/paypalme/bungtempong99" target="_blank">Buy Me a Coffee via PayPal</a>
+
+</div>
 
 ---
 
-## ☕ Traktir Kopi & Nasi Padang
-
-<p align="center">
-  <strong>Dukung terus biar semangat bikin karya edukatif lainnya...</strong><br>
-  💡 ☕ <a href="https://www.paypal.com/paypalme/bungtempong99" target="_blank">Buy Me a Coffee via PayPal</a>
-</p>
-
----
+<div align="center">
 
 ## ❤️ INITIATING HUMANITY MODE... for Down Syndrome
 
-| Target        | Anak-anak Pejuang Down Syndrome |
-|---------------|-------------------------------|
-| Status        | Butuh Dukungan                |
-| Aksi          | Buka Hati + Klik Link = Senyum Baru |
+<table align="center">
+  <tr><th>Target</th><td>Anak-anak Pejuang Down Syndrome</td></tr>
+  <tr><th>Status</th><td>Butuh Dukungan</td></tr>
+  <tr><th>Aksi</th><td>Buka Hati + Klik Link = Senyum Baru</td></tr>
+</table>
 
-> Mereka bukan berbeda. Mereka hadir untuk mengajarkan kita arti cinta sejati dan kesabaran.
+<p><em>Mereka bukan berbeda. Mereka hadir untuk mengajarkan kita arti cinta sejati dan kesabaran.</em></p>
 
-<p align="center">
-  <a href="https://mydonation4ds.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/SUPPORT--NOW-%23FF6600?style=for-the-badge&logo=heart&logoColor=white" alt="Support Now">
-  </a>
-</p>
+<a href="https://mydonation4ds.github.io/" target="_blank">
+  <img src="https://img.shields.io/badge/SUPPORT--NOW-%23FF6600?style=for-the-badge&logo=heart&logoColor=white" alt="Support Now">
+</a>
+
+</div>
 
 ---
 
+<div align="center">
+
 ## 💳 Dukungan Pembayaran DONASI
 
-<p align="center">
+<p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Visa_Logo.png/120px-Visa_Logo.png" alt="Visa" width="80">
   &nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/120px-Mastercard-logo.svg.png" alt="Mastercard" width="80">
@@ -251,17 +264,18 @@ Proyek ini menggunakan lisensi MIT.
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/120px-PayPal_logo.svg.png" alt="PayPal" width="80">
 </p>
 
+</div>
+
 ---
 
-<p align="center">
-  Kalau project ini bermanfaat, kasih ⭐ ya dan share ke temen-temenmu!<br>
-  Follow <a href="https://twitter.com/kongali1720" target="_blank">@kongali1720</a> buat update seru lainnya 🔥
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://twitter.com/kongali1720" target="_blank">
-    <img src="https://img.shields.io/twitter/follow/kongali1720?style=social" alt="Twitter Follow Badge">
-  </a>
-</p>
+Kalau project ini bermanfaat, kasih ⭐ ya dan share ke temen-temenmu!<br>
+Follow <a href="https://twitter.com/kongali1720" target="_blank">@kongali1720</a> buat update seru lainnya 🔥  
 
+<a href="https://twitter.com/kongali1720" target="_blank">
+  <img src="https://img.shields.io/twitter/follow/kongali1720?style=social" alt="Twitter Follow Badge">
+</a>
+
+</div>
 
