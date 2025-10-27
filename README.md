@@ -132,70 +132,16 @@ graph TD
     C4 --> D1
 ```
 
-🧩 Penjelasan Detail Setiap Fase
-🚀 Fase 1: Fondasi & Visi (Tahun 1)
+## 🧩 Penjelasan Detail Setiap Fase 🚀
 
-Tahap kritis yang menentukan arah masa depan proyek.
-
-Menciptakan ATEKA COIN — Token utilitas dengan fungsi nyata: governance, staking, dan diskon biaya trading.
-
-Membangun Komunitas Awal — Airdrop, AMA, dan kampanye media sosial untuk menarik pengguna pertama.
-
-Tim yang Kredibel & Whitepaper Solid — Transparansi dan profesionalisme menjadi kunci kepercayaan.
-
-Pendanaan Awal — Menggalang modal lewat ICO, IEO, atau VC untuk membangun infrastruktur inti.
-
-💱 Fase 2: Produk Inti — ATEKA Exchange (Tahun 2–3)
-
-Membangun jantung ekosistem seperti halnya Binance Exchange.
-
-Meluncurkan ATEKA Exchange — Platform trading cepat, aman, dan ramah pemula.
-
-Implementasi Utilitas ATEKA COIN — Diskon biaya trading dan sistem staking untuk mendorong permintaan token.
-
-Membangun Likuiditas — Listing pasangan utama (ATEKA/BTC, ATEKA/ETH, ATEKA/USDT).
-
-Fokus pada Keamanan — Audit berkala, cold storage, dan program bug bounty.
-
-🌐 Fase 3: Ekspansi Ekosistem (Tahun 4–5)
-
-Membangun ekosistem mandiri dan berkelanjutan.
-
-ATEKA Chain — Blockchain cepat, biaya rendah, kompatibel EVM.
-
-ATEKA Launchpad — Platform untuk meluncurkan proyek baru dengan dukungan komunitas.
-
-ATEKA Wallet — Dompet non-custodial yang aman dan mudah digunakan.
-
-ATEKA Labs — Inkubator dan investor untuk proyek-proyek kripto potensial.
-
-🌍 Fase 4: Dominasi Global & Kematangan (Tahun 6+)
-
-Menjadi pemain besar dengan kepatuhan, inovasi, dan dampak sosial.
-
-Kepatuhan Regulasi Global — Mendapat lisensi resmi di berbagai negara.
-
-Adopsi Institusional — Menyediakan produk premium bagi korporasi dan institusi keuangan.
-
-Diversifikasi Produk Lengkap — Futures, Options, DeFi, NFT, dan pinjaman berbasis blockchain.
-
-Merek Global & Filantropi — Membangun citra positif melalui ATEKA Foundation.
-
-🔑 Faktor Kunci Sukses
-
-Eksekusi yang Flawless — Ide bagus tanpa pelaksanaan yang baik akan gagal.
-
-Keamanan di Atas Segalanya — Satu insiden peretasan dapat menghancurkan reputasi.
-
-Inovasi Berkelanjutan — Dunia kripto berkembang cepat; ATEKA harus terus beradaptasi.
-
-Komunitas di Pusat Ekosistem — Mendengar, melibatkan, dan memberi penghargaan kepada komunitas.
-
-🌟 Visi Akhir
-
-Menjadikan ATEKA COIN bukan hanya sebagai token, tetapi gerakan global untuk masa depan finansial yang berkelanjutan, inklusif, dan transparan.
-
-
+| 🌱 **Fase** | 📅 **Periode** | 🧠 **Tujuan Utama** | ⚙️ **Langkah Strategis** |
+|--------------|----------------|---------------------|---------------------------|
+| **Fase 1: Fondasi & Visi** | Tahun 1 | Menetapkan arah masa depan proyek dan membangun dasar kepercayaan. | • Menciptakan **ATEKA COIN** — token utilitas untuk governance, staking, dan diskon biaya trading.<br>• **Membangun komunitas awal** melalui Airdrop, AMA, dan kampanye media sosial.<br>• **Tim kredibel & whitepaper solid** — menonjolkan transparansi dan profesionalisme.<br>• **Pendanaan awal** lewat ICO, IEO, atau VC untuk infrastruktur inti. |
+| **Fase 2: Produk Inti — ATEKA Exchange** | Tahun 2–3 | Membangun jantung ekosistem ATEKA. | • Meluncurkan **ATEKA Exchange** — platform trading cepat, aman, dan ramah pemula.<br>• **Implementasi utilitas ATEKA COIN** — diskon biaya trading dan sistem staking.<br>• **Membangun likuiditas** dengan pasangan utama (ATEKA/BTC, ATEKA/ETH, ATEKA/USDT).<br>• **Fokus keamanan**: audit, cold storage, dan bug bounty. |
+| **Fase 3: Ekspansi Ekosistem** | Tahun 4–5 | Membangun ekosistem mandiri dan berkelanjutan. | • **ATEKA Chain** — blockchain cepat, biaya rendah, kompatibel EVM.<br>• **ATEKA Launchpad** — wadah peluncuran proyek baru.<br>• **ATEKA Wallet** — dompet non-custodial yang aman & user-friendly.<br>• **ATEKA Labs** — inkubator dan investor proyek kripto potensial. |
+| **Fase 4: Dominasi Global & Kematangan** | Tahun 6+ | Menjadi pemain besar global yang patuh regulasi dan berdampak sosial. | • **Kepatuhan regulasi global** — memperoleh lisensi di berbagai negara.<br>• **Adopsi institusional** — produk premium untuk korporasi & lembaga keuangan.<br>• **Diversifikasi produk** — Futures, Options, DeFi, NFT, dan pinjaman blockchain.<br>• **Merek global & filantropi** melalui **ATEKA Foundation**. |
+| **🔑 Faktor Kunci Sukses** | — | Pilar keberhasilan jangka panjang. | • **Eksekusi flawless** — ide hebat tanpa pelaksanaan = gagal.<br>• **Keamanan utama** — mencegah peretasan & kehilangan kepercayaan.<br>• **Inovasi berkelanjutan** — adaptif terhadap perkembangan dunia kripto.<br>• **Komunitas sebagai pusat** — mendengar & menghargai pengguna. |
+| **🌟 Visi Akhir** | — | Menjadikan ATEKA COIN sebagai gerakan global untuk masa depan finansial yang berkelanjutan, inklusif, dan transparan. | — |
 
 ---
 
