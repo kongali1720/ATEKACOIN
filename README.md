@@ -42,7 +42,7 @@ Proyek ini bertujuan menghadirkan solusi pembayaran digital yang **cepat ⚡, am
 | **Standar Token** | ERC-20 |
 | **Blockchain** | Ethereum |
 | **Kontrak Pintar (Smart Contract)** | *(Akan diumumkan setelah audit selesai)* |
-| **Total Suplai** | 100,000,000 ATEKA |
+| **Total Suplai** | 500,000,000 ATEKA |
 | **Simbol Token** | `ATEKA` |
 | **Desimal** | 18 |
 
