@@ -56,8 +56,8 @@ ATEKACOIN dapat ditambahkan secara manual di **MetaMask**, **Trust Wallet**, dan
 ## 🛠️ Teknologi yang Digunakan
 - Solidity (Smart Contract)  
 - OpenZeppelin Library  
-- Hardhat / Remix IDE  
-- Ethereum Mainnet / Sepolia Testnet  
+- Hardhat
+- Ethereum Mainnet  
 
 ---
 
